@@ -1,0 +1,142 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--ChartModule UI Select color panel resources Dark Theme-->
+    <SolidColorBrush x:Key="SelectColorPanelIndicator1" Color="#38B248" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator2" Color="#EA700D" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator3" Color="#FF66CC" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator4" Color="#75849C" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator5" Color="#9683E3" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator6" Color="#F04F33" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator7" Color="#B69295" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator8" Color="#0099FF" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator9" Color="#15839A" />
+    <SolidColorBrush x:Key="SelectColorPanelIndicator10" Color="#FECF39" />
+
+    <!--ChartModule UI Graph color resources Dark Theme-->
+    <SolidColorBrush x:Key="GraphColor1" Color="#38B248" Opacity="0.4" />
+    <SolidColorBrush x:Key="GraphColor2" Color="#EA700D" Opacity="0.4" />
+    <SolidColorBrush x:Key="GraphColor3" Color="#FF66CC" Opacity="0.4" />
+    <SolidColorBrush x:Key="GraphColor4" Color="#75849C" />
+    <SolidColorBrush x:Key="GraphColor5" Color="#9683E3" Opacity="0.4" />
+    <SolidColorBrush x:Key="GraphColor6" Color="#F04F33" Opacity="0.4" />
+    <SolidColorBrush x:Key="GraphColor7" Color="#B69295" />
+    <SolidColorBrush x:Key="GraphColor8" Color="#0099FF" Opacity="0.3" />
+    <SolidColorBrush x:Key="GraphColor9" Color="#15839A" />
+    <SolidColorBrush x:Key="GraphColor10" Color="#FECF39" Opacity="0.4" />
+
+    <!--ChartModule UI legend Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleLegendBackground" Color="#B3313D4F" Opacity="0.5" />
+    <SolidColorBrush x:Key="ChartModuleLegendBorderBrush" Color="#75849C" Opacity="0.4" />
+    <SolidColorBrush x:Key="ChartModuleLegendSeriesOnForeground" Color="#75849C" />
+    <SolidColorBrush x:Key="ChartModuleLegendSeriesOffForeground" Color="#3F4C60" />
+    <SolidColorBrush x:Key="ChartModuleLegendSeriesOffindicator" Color="#949494" />
+
+    <!--ChartModule UI CrossHair TimeField ValueField Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleCrossHairBackground" Color="#FF4B64" />
+    <SolidColorBrush x:Key="ChartModuleTimeFieldBackground" Color="#273142" />
+    <SolidColorBrush x:Key="ChartModuleTimeFieldBorderBrush" Color="#7F8FA4" Opacity="0.1" />
+    <SolidColorBrush x:Key="ChartModuleTimeFieldForeground" Color="#FFFFFF " />
+    <SolidColorBrush x:Key="ChartModuleValueFieldBackground" Color="#202939" Opacity="0.2" />
+
+    <!--ChartModule UI Wave Speed Label Foreground Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleWaveSpeedLabelForeground" Color="#7F8FA4 " Opacity="0.1" />
+
+    <!--ChartModule UI Ox Axis Background Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleBrushOxAxis" Color="#75849C" />
+
+    <!--ChartModule UI Top panel Background Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleBrushBackgroundTopPanel" Color="#273142" />
+
+    <!--ChartModule UI Diagnostic Group name label Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleDiagnosticGroupNameLabelForeground" Color="#9FA9BA" />
+
+    <!--ChartModule UI Common colors Dark Theme-->
+    <SolidColorBrush x:Key="ModuleBottomPanelBackground" Color="#202939" />
+    <SolidColorBrush x:Key="ChartModuleCommonButtonUpBackground" Color="#222C3C" />
+    <SolidColorBrush x:Key="ChartModuleCommonButtonDownBackground" Color="#265A87" />
+    <SolidColorBrush x:Key="ChartModuleAdditionButtonsBackground" Color="#75849C" />
+
+    <!--ChartModule UI DisplayDepthPanel colors Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleDisplayDepthPanelBorderBrush" Color="#75849C" />
+    <SolidColorBrush x:Key="ChartModuleDisplayDepthPanelBackground" Color="#222C3C" />
+    <SolidColorBrush x:Key="ChartModuleDisplayDepthDockPanelBackground" Color="#222C3C" />
+    <SolidColorBrush x:Key="ChartModuleDisplayDepthCenterValueFieldBackground" Color="#222C3C" />
+    <SolidColorBrush x:Key="ChartModuleDisplayDepthCenterValueFieldForeground" Color="#75849C" />
+    <SolidColorBrush x:Key="ChartModuleDisplayDepthCenterValueFieldBorderBrush" Color="#75849C" />
+
+    <!--ChartModule UI SensorList colors Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleSensorListBorderBrush" Color="#7C8CA5" Opacity="0.5" />
+    <SolidColorBrush x:Key="ChartModuleSensorListBackground" Color="#323C4C" />
+    <SolidColorBrush x:Key="ChartModuleSensorListCloseButtonBackground" Color="#75849C" />
+
+    <SolidColorBrush x:Key="ChartModuleSensorListSensorSelectedBackground" Color="Transparent" />
+    <SolidColorBrush x:Key="ChartModuleSensorListSensorSelectedBorderBrush" Color="Transparent" />
+
+    <SolidColorBrush x:Key="ChartModuleSensorListSensorNotSelectedBackground" Color="#323C4C" />
+    <SolidColorBrush x:Key="ChartModuleSensorListSensorNotSelectedBorderBrush" Color="#7C8CA5" />
+
+    <SolidColorBrush x:Key="ChartModuleSensorListSensorName" Color="#9FA9BA" />
+    <SolidColorBrush x:Key="ChartModuleSensorListSensorSiteName" Color="#7C8CA5" />
+
+    <!--ChartModule UI Vertical Axis ContextMenu colors Dark Theme-->
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuBorderBrush" Color="#313D4F" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuRadioButtonCheckedTrueBorderBrush" Color="#1F537F" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuRadioButtonCheckedTrueBackground" Color="#1F537F" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuRadioButtonCheckedTrueForeground" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuRadioButtonCheckedFalseBackground" Color="#313D4F" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuRadioButtonCheckedFalseBorderBrush" Color="#7F8FA4" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuLabelIsFocusedFalseForeground" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuLabelIsFocusedTrueForeground" Color="#7F8FA4" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuTextBoxBackground" Color="#313D4F" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuTextBoxForeground" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuTextBoxBorderBrush" Color="#7C8CA5" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuCheckBoxCheckedTrueBorderBrush" Color="#38B349" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuCheckBoxCheckedTrueBackground" Color="#38B349" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuCheckBoxCheckedTrueForeground" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuCheckBoxCheckedFalseBorderBrush" Color="#556277" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuCheckBoxCheckedFalseBackground" Color="#2C3749" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuCheckBoxCheckedFalseForeground" Color="#FFFFFF" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuSelectionBorderIsMouseOverTrueBackground" Color="#2F5070" />
+    <SolidColorBrush x:Key="ChartModuleVerticalAxisContextMenuSelectionBorderIsMouseOverFalseBackground" Color="Transparent" />
+
+
+    <!--Chartmodule UI Leak Calculate on PressureChange-->
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeGreenBackground" Color="#1BB934" Opacity="0.8" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeGreenBorder" Color="#1BB934" Opacity="0.7" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangePinkBackground" Color="#FFA2AD " Opacity="0.8" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangePinkBorder" Color="#FFA2AD " Opacity="0.7" />
+
+    <!--Chartmodule UI Leak Calculate on PressureChange Graph-->
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphBackground" Color="#222C3C" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphBorderBrush" Color="#7C8CA5" Opacity="0.6" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphTopPanel" Color="#273142" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphTopPanelSplitter" Color="#273142" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphGridBackground" Color="#222C3C" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphGridline" Color="#3F4C60" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphAxisForeground" Color="#7C8CA5" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphAxisTickColor" Color="#7C8CA5" Opacity="0.2" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphAxisBackground" Color="#202939" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphPointColor" Color="#3371B1" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphPointColor2" Color="#2399F1" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphLineColor" Color="#2399F1" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphVerticalLineColor" Color="#7C8CA5" Opacity="0.8" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphCoordinateFieldBackground" Color="#313D4F" Opacity="0.3" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphCoordinateFieldBorderBrush" Color="#2198F0" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphCoordinateFieldForeground" Color="#2198F0" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetFieldBackground" Color="#313D4F" Opacity="0.3" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetFieldBorderBrush" Color="#7C8CA5"  Opacity="0.6" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetFieldForeground" Color="#7C8CA5" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetCheckboxTrueBackground" Color="Transparent" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetCheckboxTrueBorderBrush" Color="#7C8CA5" Opacity="0.4" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetCheckboxTrueForeground" Color="#3374B5" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetCheckboxFalseBackground" Color="Transparent" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphOffsetCheckboxFalseBorderBrush" Color="#7C8CA5" Opacity="0.4" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphGreenValueFieldBackground" Color="#1BB934"  Opacity="0.2" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphGreenValueFieldBorderBrush" Color="#1BB934"  Opacity="1" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphGreenValueFieldForeground" Color="#1BB934" Opacity="1" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphPinkValueFieldBackground" Color="#FFA2AD"  Opacity="0.2" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphPinkValueFieldBorderBrush" Color="#FFA2AD"  Opacity="1" />
+    <SolidColorBrush x:Key="ChartModuleLeakCalculatePressureChangeBuildGraphPinkValueFieldForeground" Color="#FFA2AD" Opacity="1" />
+
+</ResourceDictionary>
