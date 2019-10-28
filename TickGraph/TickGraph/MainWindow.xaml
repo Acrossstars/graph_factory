@@ -16,10 +16,11 @@
                     x:Name="LeakCoordinateCalculateGraph"
                     Background="{DynamicResource ChartModuleLeakCalculatePressureChangeBuildGraphBackground}">
             <telerik:RadCartesianChart.VerticalAxis>
+                <!--Изменение цены может привести к выходу графиков за рамки максимума и минимума-->
                 <telerik:LinearAxis
                             TickOrigin="0"
                             SmartLabelsMode="SmartStep"
-                            Minimum="3"
+                            Minimum="2"
                             Maximum="4"
                             Background="{DynamicResource ChartModuleLeakCalculatePressureChangeBuildGraphAxisBackground}"
                             LineStroke="{DynamicResource ChartModuleLeakCalculatePressureChangeBuildGraphAxisForeground}"
@@ -68,38 +69,7 @@
                     </telerik:ChartSeriesDescriptor>
                 </telerik:ChartSeriesProvider>
             </telerik:RadCartesianChart.SeriesProvider>
-
-            <!--<telerik:LineSeries
-                        ItemsSource="{Binding StreamData}"
-                        Stroke="{DynamicResource ChartModuleLeakCalculatePressureChangeBuildGraphLineColor}"
-                        ValueBinding="CurrentDayClosePrice"        
-                        CategoryBinding="StatisticsCloseTime"        
-                >
-                -->
-            <!--<telerik:ScatterLineSeries.DataPoints>
-                    <telerik:ScatterDataPoint XValue="14" YValue="-0.5" />
-                    <telerik:ScatterDataPoint XValue="25" YValue="-0.7" />
-                    <telerik:ScatterDataPoint XValue="33" YValue="-1.5" />
-                    <telerik:ScatterDataPoint XValue="60" YValue="-1.7" />
-                    <telerik:ScatterDataPoint XValue="85" YValue="-1.9" />
-                    <telerik:ScatterDataPoint XValue="90" YValue="-1.2" />
-                    <telerik:ScatterDataPoint XValue="122" YValue="-0.1" />
-                    <telerik:ScatterDataPoint XValue="133" YValue="-0.2" />
-                </telerik:ScatterLineSeries.DataPoints>-->
-            <!--
-            </telerik:LineSeries>-->
-            <!--<telerik:ScatterPointSeries>
-                <telerik:ScatterPointSeries.DataPoints>
-                    <telerik:ScatterDataPoint XValue="14" YValue="-0.5" />
-                    <telerik:ScatterDataPoint XValue="25" YValue="-0.7" />
-                    <telerik:ScatterDataPoint XValue="33" YValue="-1.5" />
-                    <telerik:ScatterDataPoint XValue="60" YValue="-1.7" />
-                    <telerik:ScatterDataPoint XValue="85" YValue="-1.9" />
-                    <telerik:ScatterDataPoint XValue="90" YValue="-1.2" />
-                    <telerik:ScatterDataPoint XValue="122" YValue="-0.1" />
-                    <telerik:ScatterDataPoint XValue="133" YValue="-0.2" />
-                </telerik:ScatterPointSeries.DataPoints>
-            </telerik:ScatterPointSeries>-->
+           
             <telerik:RadCartesianChart.Behaviors>
                 <telerik:ChartPanAndZoomBehavior/>
                 <telerik:ChartTrackBallBehavior />
