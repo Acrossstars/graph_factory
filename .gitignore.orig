@@ -4,9 +4,12 @@ appengine-generated/
 /TickGraph/.vs/TickGraph/v15/Server/sqlite3/storage.ide
 /TickGraph/.vs/TickGraph/v15/.suo
 /TickGraph/.vs/TickGraph/v15/Server/sqlite3/storage.ide-shm
+<<<<<<< HEAD
+=======
 /TickGraph/.vs/Graph_Factory/v15/.suo
 /TickGraph/.vs/TickGraph/v15/.suo
 /TickGraph/.vs/TickGraph/v15/Server/sqlite3/db.lock
 /TickGraph/.vs/TickGraph/v15/Server/sqlite3/storage.ide
 /TickGraph/.vs/TickGraph/v15/Server/sqlite3/storage.ide-shm
 /TickGraph/.vs/TickGraph/v15/Server/sqlite3/storage.ide-wal
+>>>>>>> Initial commit
